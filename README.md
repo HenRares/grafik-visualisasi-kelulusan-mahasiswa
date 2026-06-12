@@ -56,3 +56,34 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Analisis Pola Kelulusan Mahasiswa
+
+Tugas Mata Kuliah Grafik dan Visualisasi Data.
+
+## Fitur
+
+- Scatter Plot Kelulusan Mahasiswa
+- Korelasi Pearson (IPK vs SKS Lulus)
+- Deteksi Outlier menggunakan Metode IQR
+- Statistik Mahasiswa Tepat Waktu dan Tidak Tepat Waktu
+
+## Teknologi
+
+- Laravel 11
+- Bootstrap 5
+- Chart.js
+- MySQL
+
+## Visualisasi
+
+- Sumbu X : IPK
+- Sumbu Y : Kehadiran
+- Warna Hijau : Lulus Tepat Waktu
+- Warna Merah : Tidak Lulus Tepat Waktu
+
+## Hasil Analisis
+
+- Korelasi Pearson (r) = 0.0021
+- Mahasiswa Tepat Waktu = 378
+- Mahasiswa Tidak Tepat Waktu = 122
